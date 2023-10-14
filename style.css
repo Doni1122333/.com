@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    font-family: sans-serif; 
+}
+body{
+    background-color: #FFF500;
+}
+h1{
+    font-size: 40px;
+}
+nav{
+    padding: 2% 5% 3% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 0 2%;
+}
+header{
+    font-family: sans-serif;
+    vertical-align: top;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    align-content: space-evenly;
+}
+header p{
+    font-size: calc(20px + 1.5vw);
+    font-family: 'Oswald', sans-serif;
+
+}
+header a, footer a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    font-size: calc(14px + 0.3vw);
+}
+header img{
+    display: inline-block;
+    filter: brightness(50%);
+    width: 50%;
+}
+h2{
+    font-size: calc(30px + 1vw);
+    font-family: sans-serif;
+    padding: 40px;
+}
+article{
+    text-align: center;
+}
+.class-taxi{
+    padding: 20px 20px 40px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    vertical-align: top;
+}
+.class-taxi img{
+    filter: brightness(70%);
+    padding: 50px 0px;
+}
+#crown{
+    width: 251px;
+}
+#camaro{
+    width: 276px;
+}
+#rolls{
+    width: 254px;
+}
+.order{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    background-color: #00ff37e5;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid yellow;
+}
+.order:hover{
+    background-color: yellow;
+}
+.card{
+    margin: 0 0 10% 0;
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer{
+    height: 250px;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.pages:hover {
+    color: rgb(43, 37, 37);
+    transition: 0.1s;
+    transform: translateY(1px);
+    display: inline-block;
+}
+#chayka {
+    animation: chayka 1s infinite;
+    animation-direction: alternate;
+
+    
+}
+@keyframes chayka {
+    0% {
+        transform: translateX(-5vw);
+    }
+    50% {
+        transform: translateX(-10vw);
+    }
+    100% {
+        transform: translateX(-15vw);
+    }
+   
+}

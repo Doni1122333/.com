@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #FFF500;
+}
+h1{
+    font-size: 40px;
+}
+nav{
+    padding: 2% 5% 5% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    font-family: sans-serif;
+    vertical-align: top;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover {
+    color: rgb(43, 37, 37);
+    transition: 0.2s;
+    transform: translateY(1px);
+    display: inline-block;
+}
+footer{
+    height: 10%;
+    background-color: black;
+    font-family: sans-serif;
+}
+footer>h2{
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+footer>p{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+article{
+    text-align: center;
+}
+#nomera>p{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    margin: 50px;
+    font-size: calc(20px + 1vw);
+    width: 70%;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+iframe{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 0 100px;
+}
+article>h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    font-size: calc(14px + 0.3vw);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
