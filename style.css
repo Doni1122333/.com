@@ -111,8 +111,6 @@ footer{
     transform: translateY(1px);
     display: inline-block;
 }
-#chayka {
-    animation: chayka 1s infinite;
-    animation-direction: alternate;
+
 
     
